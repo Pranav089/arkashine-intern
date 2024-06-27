@@ -30,7 +30,7 @@ This repository contains a Streamlit app that uses a Multiple linear regression 
 
 ## How to Use
 
-1. Go to the [PLSR app](https://mlr-ark.streamlit.app/).
+1. Go to the [MLR app](https://mlr-ark.streamlit.app/).
 2. Select the property
 3. Input the wavebands of  the property
 4. Click the "Predict" button to get the predicted value.
