@@ -11,17 +11,30 @@ This repository contains a Streamlit app that uses a Partial Least Squares Regre
 
 ## How to Use
 
-1. Go to the [Streamlit app](https://arkashine01-aeyrbogn59vkpwoet3rxqd.streamlit.app/).
+1. Go to the [PLSR app](https://arkashine01-aeyrbogn59vkpwoet3rxqd.streamlit.app/).
 2. Enter values for the features in the input fields.
 3. Click the "Predict" button to get the predicted values.
 4. View the model performance metrics and scatter plots.
 
-## Repository Contents
 
-- `app.py`: The main Streamlit app script.
-- `yes.csv`: Input data file.
-- `ref.csv`: Reference data file.
-- `requirements.txt`: List of required Python packages.
+  
+# Streamlit MLR Model App
+
+This repository contains a Streamlit app that uses a Multiple linear regression (MLR) model for predictions based on user inputs.
+
+
+## Features
+
+- User can input values for wavebands for selected property.
+- The app predicts property using the MLR model.
+
+## How to Use
+
+1. Go to the [PLSR app](https://mlr-ark.streamlit.app/).
+2. Select the property
+3. Input the wavebands of  the property
+4. Click the "Predict" button to get the predicted value.
+
 
 
 
