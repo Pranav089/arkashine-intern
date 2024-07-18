@@ -21,7 +21,7 @@ data = pd.concat([yoo, yes], axis=1)
 # Define feature and target columns
 feature_columns = ['A(410)', 'B(435)', 'C(460)', 'D(485)', 'E(510)', 'F(535)', 'G(560)', 'H(585)', 'R(610)',
                    'I(645)', 'S(680)', 'J(705)', 'T(730)', 'U(760)', 'V(810)', 'W(860)', 'K(900)', 'L(940)']
-target_columns = ['pH', 'EC  (dS/m)', 'OC (%)', 'P   (kg/ha)', 'K (kg/ha)', 'Ca (meq/100g)', 'Mg (meq/100g)', 'S (ppm)',
+target_columns = ['pH', 'EC (dS/m)', 'OC (%)', 'P (kg/ha)', 'K (kg/ha)', 'Ca (meq/100g)', 'Mg (meq/100g)', 'S (ppm)',
                   'Fe (ppm)', 'Mn (ppm)', 'Cu (ppm)', 'Zn (ppm)', 'B (ppm)']
 
 # Fill missing values in feature and target columns with the median
